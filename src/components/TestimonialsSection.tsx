@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const testimonials = [
@@ -55,9 +54,8 @@ export default function TestimonialsSection() {
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.3 }}
                 className="flex flex-col items-center"
-              >
-                <div className="text-center text-xl leading-8 text-gray-600">
-                  "{testimonials[currentTestimonial].content}"
+              >                <div className="text-center text-xl leading-8 text-gray-600">
+                  &ldquo;{testimonials[currentTestimonial].content}&rdquo;
                 </div>
                 <div className="mt-8 text-base">
                   <div className="font-semibold text-gray-900">{testimonials[currentTestimonial].author}</div>

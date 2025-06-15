@@ -7,7 +7,7 @@ export default function ContactPage() {
             <div>
               <h1 className="section-title">Get in touch</h1>
               <p className="section-description">
-                We'd love to hear from you. Please fill out this form or call us.
+                We&apos;d love to hear from you. Please fill out this form or call us.
               </p>
               <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
                 <div className="flex gap-x-4">

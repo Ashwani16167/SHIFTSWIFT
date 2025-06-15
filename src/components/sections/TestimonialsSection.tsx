@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function TestimonialsSection() {
   const testimonials = [
     {
@@ -29,7 +27,7 @@ export default function TestimonialsSection() {
         <div className="mx-auto mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((item) => (
             <div key={item.author} className="testimonial-card">
-              <p className="text-lg text-gray-600">"{item.text}"</p>
+              <p className="text-lg text-gray-600">&ldquo;{item.text}&rdquo;</p>
               <div className="mt-6">
                 <div className="font-semibold">{item.author}</div>
                 <div className="text-sm text-gray-500">{item.role}</div>

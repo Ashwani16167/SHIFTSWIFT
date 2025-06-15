@@ -1,5 +1,3 @@
-import ServicesDisplay from './ServicesDisplay';
-
 export default function ServicesSection() {
   const services = [
     {

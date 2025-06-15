@@ -39,9 +39,8 @@ export default function FAQSection() {
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Frequently Asked Questions
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Have questions? We're here to help. If you can't find the answer you're looking for,
-            please don't hesitate to contact our team.
+          <p className="mt-6 text-lg leading-8 text-gray-600">            Have questions? We&apos;re here to help. If you can&apos;t find the answer you&apos;re looking for,
+            please don&apos;t hesitate to contact our team.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24">
